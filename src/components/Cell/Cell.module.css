@@ -1,0 +1,22 @@
+.grid-item {
+    text-transform: capitalize;
+    padding: 2px;
+    text-align: center;
+}
+
+.active-date {
+    cursor: pointer;
+    color: var(--color-primary);
+    background: var(--color-secondary);
+}
+
+.non-active-date:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+    color: var(--color-primary);
+    background: var(--color-secondary);
+}
+
+.active-date:hover {
+    filter: brightness(122%);
+}
