@@ -1,27 +1,23 @@
 .container {
-    width: 220px;
+    width: 200px;
+    background: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .grid-container-month-year {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: var(--color-primary);
-    color: var(--color-secondary);
 }
 
 .grid-container-week {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    background: var(--color-primary);
-    color: var(--color-secondary);
 }
 
 .grid-container-days {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    background: var(--color-primary);
-    color: var(--color-secondary);
 }

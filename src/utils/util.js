@@ -2,7 +2,7 @@ export const getCalendarDataByDate = (date = new Date()) => {
     const currentMonth = date.getMonth() + 1
     const currentYear = date.getFullYear()
     const daysInCurrentMonth = getDaysInMonth(currentYear, currentMonth)
-    const daysToSkip = getFirstDayOfMonthByDate()
+    const daysToSkip = getFirstDayOfMonthByDate(date)
     const WEEK_DAYS = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 
     return {
@@ -34,4 +34,14 @@ function getDateNumbersForMonth(daysToSkip, daysInCurrentMonth) {
         dateNumbersForMonth.push(index)
     }
     return dateNumbersForMonth
+}
+
+export const getHTMLDate = (date = new Date()) => {
+    const month = date.toLocaleString('default', {
+        month: '2-digit',
+    })
+    const day = date.toLocaleString('default', {
+        day: '2-digit',
+    })
+    return `${date.getFullYear()}-${month}-${day}`
 }
