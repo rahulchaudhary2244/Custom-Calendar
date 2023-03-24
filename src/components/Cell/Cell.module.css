@@ -13,7 +13,7 @@
 
 .non-active-date:hover {
     cursor: pointer;
-    filter: brightness(50%);
+    filter: brightness(60%);
     color: var(--color-primary);
     background: var(--color-secondary);
 }
