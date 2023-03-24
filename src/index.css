@@ -2,6 +2,7 @@
     /* Global variables to be defined here */
     --color-primary: #08161b;
     --color-secondary: #839496;
+    --color-bg: #a9b0d9;
 }
 
 *,
@@ -15,6 +16,7 @@
 html,
 body {
     height: 100%;
+    background: var(--color-bg);
 }
 body {
     line-height: 1.5;

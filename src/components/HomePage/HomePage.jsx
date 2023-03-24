@@ -12,6 +12,7 @@ function HomePage() {
 
     return (
         <div className={styles['container']}>
+            <h1>Custom calendar in React</h1>
             <div className={styles['content']}>
                 <Calendar date={new Date(date)} />
                 <input type="date" value={date} onChange={handleChange} />
