@@ -1,6 +1,6 @@
 :root {
     /* Global variables to be defined here */
-    --color-black: #121212;
+    --color-gray: #242323;
     --color-white: #ffffff;
 }
 
@@ -19,7 +19,7 @@ body {
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 img,
 picture,
