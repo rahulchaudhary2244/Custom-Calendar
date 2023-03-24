@@ -17,7 +17,8 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "lint": "prettier --check .",
-        "lint:fix": "prettier --write ."
+        "lint:fix": "prettier --write .",
+        "prepare": "husky install"
     },
     "eslintConfig": {
         "extends": [
@@ -38,6 +39,7 @@
         ]
     },
     "devDependencies": {
+        "husky": "^8.0.3",
         "prettier": "2.8.6"
     }
 }
