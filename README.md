@@ -6,7 +6,7 @@ View deployed app here [https://custom-calendar-by-rahul.netlify.app/](https://c
 
 ## Demo
 
-![finding-falcone-demo.gif](https://github.com/rahulchaudhary2244/media-repository/blob/main/finding-falcone-demo.gif)
+![custom-date-in-react.gif](https://github.com/rahulchaudhary2244/media-repository/blob/main/custom-date-in-react.gif)
 
 ## Run Locally
 
